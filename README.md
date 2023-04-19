@@ -2,46 +2,46 @@
 Яндекс Практикум. Спринт 9. Итоговый проект. API для Yatube.
 
 # Функционал
-Подписка и отписка от авторизованного пользователя;
-Авторизованный пользователь просматривает посты, создавёт новые, удаляет и изменяет их;
-Просмотр сообществ;
-Комментирование, просмотр, удаление и обновление комментариев;
-Фильтрация по полям.
+-Подписка и отписка от авторизованного пользователя;
+-Авторизованный пользователь просматривает посты, создавёт новые, удаляет и изменяет их;
+-Просмотр сообществ;
+-Комментирование, просмотр, удаление и обновление комментариев;
+-Фильтрация по полям.
 # Установка
 _1. Клонировать репозиторий:_
 
-git clone https://github.com/egorcoders/api_final_yatube.git
+>git clone https://github.com/egorcoders/api_final_yatube.git
 
 _2. Перейти в папку с проектом:_
 
-cd api_final_yatube/
+>cd api_final_yatube/
 
 _3. Установить виртуальное окружение для проекта:_
 
-python -m venv venv
+>python -m venv venv
 
 _4. Активировать виртуальное окружение для проекта:_
 
 # для OS Lunix и MacOS
-source venv/bin/activate
+>source venv/bin/activate
 
 # для OS Windows
-source venv/Scripts/activate
+>source venv/Scripts/activate
 
 _5. Установить зависимости:_
 
-python -m pip install --upgrade pip
-pip install -r requirements.txt
+->python -m pip install --upgrade pip
+->pip install -r requirements.txt
 
 _6. Выполнить миграции на уровне проекта:_
 
-cd yatube
-python3 manage.py makemigrations
-python3 manage.py migrate
+->cd yatube
+->python3 manage.py makemigrations
+->python3 manage.py migrate
 
 _7. Запустить проект:_
 
-python manage.py runserver
+>python manage.py runserver
 
 # Примеры запросов
 _1. Получение токена_
